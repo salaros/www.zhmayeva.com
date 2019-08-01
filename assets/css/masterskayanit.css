@@ -1,0 +1,40 @@
+#rec114929633 .t-menu__link-item {
+    position: relative;
+}
+
+#rec114929633 .t-menu__link-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #ffffff;
+    -webkit-box-shadow: inset 0px -1px 0px 0px #ffffff;
+    -moz-box-shadow: inset 0px -1px 0px 0px #ffffff;
+    box-shadow: inset 0px -1px 0px 0px #ffffff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#rec114929633 .t-menu__link-item:not(.t-active):not(.tooltipstered):hover::after {
+    opacity: 1;
+    bottom: -1px;
+}
+
+@supports (overflow:-webkit-marquee) and (justify-content:inherit) {
+
+    #rec114929633 .t-menu__link-item,
+    #rec114929633 .t-menu__link-item.t-active {
+        opacity: 1 !important;
+    }
+}
+
+@media screen and (max-width: 960px) {}
+
+@media all\0 {
+    #rec114929633 .t446 {
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9000000', endColorstr='#D9000000');
+    }
+} 
