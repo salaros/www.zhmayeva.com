@@ -2,6 +2,18 @@
     color: #ffffff !important;
 }
 
+.site-title {
+    word-break: normal;
+    white-space: normal;
+    font-size: 65px;
+}
+
+.site-title-tagline {
+    word-break: normal;
+    white-space: normal;
+    font-size: 26px;
+}
+
 #rec114929647 {
     background-image: url('../images/map.png');
     background-attachment: fixed;
@@ -41,7 +53,16 @@
     }
 }
 
-@media screen and (max-width: 960px) {}
+@media screen and (max-width: 960px) {
+    .site-title {
+        word-spacing: 100vw;
+        font-size: 48px;
+    }
+        
+    .site-title-tagline {
+        font-size: 20px;
+    }
+}
 
 @media all\0 {
     #rec114929633 .t446 {
