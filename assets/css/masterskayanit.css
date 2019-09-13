@@ -53,6 +53,34 @@
     }
 }
 
+@media screen and (max-width: 640px) {
+    .t106__wrapper.reverse-on-mobile {
+        display: -webkit-box;   
+        display: -moz-box;      
+        display: -ms-flexbox;   
+        display: -webkit-flex;  
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        -moz-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+
+    .t106__block.reverse-on-mobile-second {
+        order: 2;
+        -webkit-order: 2;
+        -moz-order: 2;
+        -ms-order: 2;
+    }
+
+    .t106__block.reverse-on-mobile-first {
+        order: 1;
+        -webkit-order: 1;
+        -moz-order: 1;
+        -ms-order: 1;
+    }
+}
+
 @media screen and (max-width: 960px) {
     .site-title {
         word-spacing: 100vw;
