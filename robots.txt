@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /assets/vendor/
 Sitemap: https://www.masterskayanit.ru/sitemap.xml
-Host: www.masterskayanit.ru
+Host: https://www.masterskayanit.ru
