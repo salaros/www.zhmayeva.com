@@ -14,10 +14,20 @@
     font-size: 26px;
 }
 
-#rec114929647 {
-    background-image: url('../images/map.png?201908052112');
-    background-attachment: fixed;
-    background-attachment: scroll;
+#rec114929647 iframe {
+    top: 0; left: 0;
+    bottom: 0; right: 0;
+    position: absolute;
+}
+
+.t-sociallinks__wrapper {
+    margin-top: 36px;
+}
+
+.t-sociallinks__wrapper .t-sociallinks__item {
+    display: inline;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 #rec114929633 .t-menu__link-item {
