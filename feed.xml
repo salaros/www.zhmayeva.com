@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru"
+     version="2.0">
+    <channel>
+        <!-- Информация о сайте-источнике -->
+        <title>Мастерская Нить Москва - ателье домашнего текстиля, пошив</title>
+        <link>http://www.masterskayanit.ru/</link>
+        <description>Краткое описание канала</description>
+        <language>ru</language>
+        <item turbo="true">
+            <!-- Информация о странице -->
+            <link>http://www.masterskayanit.ru/</link>
+            <turbo:source></turbo:source>
+            <turbo:topic></turbo:topic>
+            <pubDate>Sat, 21 Mar 2020 14:15:00 +0300</pubDate>
+            <author>Мастерская Нить</author>
+            <metrics>
+                <yandex schema_identifier="Идентификатор">
+                    <breadcrumblist>
+                        <breadcrumb url="http://www.masterskayanit.ru/" text="Домашняя"/>
+                    </breadcrumblist>
+                </yandex>
+            </metrics>
+            <yandex:related></yandex:related>
+            <turbo:content>
+                <![CDATA[
+                    <header>
+                        <h1>АТЕЛЬЕ-МАСТЕРСКАЯ</h1>
+                        <h2>В МОСКВЕ</h2>
+                        <figure>
+                            <img src="https://www.masterskayanit.ru/assets/images/masterskaya_nit_background_image.jpg">
+                        </figure>
+                        <menu>
+                            <a href="https://www.instagram.com/masterskaya_nit/">Наши работы</a>
+                            <a href="https://yandex.by/maps/213/moscow/?from=api-maps&ll=37.632098%2C55.732925&mode=search&oid=162283676308&ol=biz&utm_source=api-maps&z=10">Мы на карте</a>
+                            <a href="tel:+79014080188">Позвонить</a>
+                        </menu>
+                    </header>
+                    <p>Поможем разобраться с мыслями и разложить всё по полочкам</p>
+                    <h2>Наши услуги</h2>
+                    <div data-block="cards">
+                        <div data-block="card">
+                            <header>
+                                <h2>Пошив небольших партий</h2>
+                            </header>
+                            <!-- Начало содержимого карточки. -->
+                            <img src="https://www.masterskayanit.ru/assets/images/lantoki-atelier.jpg">
+                            <p>Разработаем лекала для Вашей коллекции и отошьем партию на нашем производстве в Москве</p>
+                        </div>
+                        <div data-block="card">
+                            <header>
+                                <h2>Пошив домашнего текстиля</h2>
+                            </header>
+                            <!-- Начало содержимого карточки. -->
+                            <img src="https://www.masterskayanit.ru/assets/images/tende-per-soggiorno-.jpg">
+                            <p>Совместно подберём ткани которые Вам по нраву и согласуем оформление каждой комнаты</p>
+                        </div>
+                        <div data-block="card">
+                            <header>
+                                <h2>Индивидуальный пошив</h2>
+                            </header>
+                            <!-- Начало содержимого карточки. -->
+                            <img src="https://www.masterskayanit.ru/assets/images/sarta-abiti-donna-su.jpeg">
+                            <p>Соберём изделие соответствующее Вашей фигуре, учитывая все детали</p>
+                        </div>
+                        <div data-block="card">
+                            <header>
+                                <h2>Пошив небольших партий</h2>
+                            </header>
+                            <!-- Начало содержимого карточки. -->
+                            <img src="https://www.masterskayanit.ru/assets/images/lantoki-atelier.jpg">
+                            <p>Разработаем лекала для Вашей коллекции и отошьем партию на нашем производстве в Москве</p>
+                        </div>
+                        <div data-block="card">
+                            <header>
+                                <h2>Выезд специалиста на дом</h2>
+                            </header>
+                            <!-- Начало содержимого карточки. -->
+                            <img src="https://www.masterskayanit.ru/assets/images/abitisumisura-b2bmag.jpg">
+                            <p>Снимем мерки на дому, в удобное для Вас время</p>
+                        </div>
+                    </div>
+                    <h2>От нас Вы получаете</h2>
+                    <ul>
+                        <li>Соблюдение сроков<br><small>Ценим время, как Ваше так и наше</small></li>
+                        <li>Труд на совесть<br><small>Для нас понятие "качество" - является одним из ключевых принципов работы</small></li>
+                        <li>Прозрачные отношения<br><small>Мы за долгосрочное и взаимовыгодное сотрудничество</small></li>
+                        <li>Дружественная атмосфера<br><small>Мы всегда рады знакомиться с новыми интересными людьми и их идеями</small></li>
+                        <li>Поддержка<br><small>Сопровождаем во всех технических вопросах, на протяжении всего сотрудниества</small></li>
+                        <li>Бонусы<br><small>Для лояльных клиентов предвидены различные подарки</small></li>
+                    </ul>
+                    <button formaction="tel:+7(901)408-01-88" data-background-color="#5B97B0" data-color="white" data-primary="true">Свяжитесь с нами</button>
+                    <div data-block="widget-feedback" data-stick="false">
+                        <div data-block="chat" data-type="whatsapp" data-url="https://api.whatsapp.com/send?phone=79014080188"></div>
+                        <div data-block="chat" data-type="telegram" data-url="https://t.me/masnit"></div>
+                        <-- div data-block="chat" data-type="vkontakte" data-url="https://vk.com/" -->
+                        <div data-block="chat" data-type="facebook" data-url="https://facebook.com/masterskaya_nit-2271576279557177/"></div>
+                        <div data-block="chat" data-type="viber" data-url="viber://chat?number=%2B79014080188"></div>
+                    </div>
+                    <p>Наш адрес: <a href="https://yandex.by/maps/213/moscow/?from=api-maps&ll=37.632098%2C55.732925&mode=search&oid=162283676308&ol=biz&utm_source=api-maps&z=10">Москва, 6-й Монетчиковский переулок, 8, стр. 1</a></p>
+                ]]>
+            </turbo:content>
+        </item>
+    </channel>
+</rss>
