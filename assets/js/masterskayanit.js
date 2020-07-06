@@ -1,10 +1,8 @@
 window.dataLayer = window.dataLayer || [];
 
-if ((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i
-    .test(navigator.userAgent)) === false 
-    && typeof (sessionStorage) != 'undefined' 
-    && sessionStorage.getItem('visited') !== 'y') 
-{
+if ((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(
+        navigator.userAgent)) === false && typeof (sessionStorage) != 'undefined' && sessionStorage.getItem(
+        'visited') !== 'y') {
     var style = document.createElement('style');
     style.type = 'text/css';
     style.innerHTML =
@@ -19,40 +17,71 @@ if ((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|ro
     });
 }
 
+var arMapMarkers193630848 = [{
+    title: "Москва",
+    descr: "",
+    lat: "55.732925",
+    lng: "37.632156",
+}, ];
 
-$(document).ready(function () {
-    t446_setLogoPadding('114929633');
+$('.t801').bind('displayChanged', function () {
+    t_slds_updateSlider('193916579');
+    t_slds_positionArrows('193916579');
 });
-var t446__doResize;
+
+var t554__fireRefreshEventOnWindow = function () {
+    var evt = document.createEvent("HTMLEvents");
+    evt.initEvent('resize', true, false);
+    window.dispatchEvent(evt);
+};
+
+$('.t554').bind('displayChanged', function () {
+    t554__fireRefreshEventOnWindow();
+});
+
 $(window).resize(function () {
-    t446_checkOverflow('114929633', '100');
-    clearTimeout(t446__doResize);
-    t446__doResize = setTimeout(function () {
-        t446_checkOverflow('114929633', '100');
-    }, 200);
-});
-$(window).load(function () {
-    t446_checkOverflow('114929633', '100');
-});
-$(document).ready(function () {
-    t446_checkOverflow('114929633', '100');
-});
-$(document).ready(function () {
-    t446_highlight();
-});
-$(window).resize(function () {
-    t446_setBg('114929633');
-});
-$(document).ready(function () {
-    t446_setBg('114929633');
+    t462_setBg('193908759');
 });
 
 $(document).ready(function () {
-    t446_createMobileMenu('114929633');
-});
+    t_sldsInit('193916579');
 
-$(document).ready(function () {
     setTimeout(function () {
-        t825_initPopup('114929642');
+        t754__init('193619540');
     }, 500);
+
+    t462_highlight();
+
+    t462_setBg('193908759');
+
+    setTimeout(function () {
+        t_menusub_init('193908759');
+    }, 500);
+
+    t802_insta_init('194059134', '');
+
+    setTimeout(function () {
+        t898_init('193770283');
+    }, 500);
+
+    t_map_lazyload_add_map();
+    $(window).bind('scroll', t_throttle(t_map_lazyload_add_map, 300));
 });
+
+function t_map_lazyload_add_map() {
+    var windowHeight = $(window).height();
+    var scrollDiffHeigth = 700;
+    var rec = $('#rec' + 193630848);
+    var map = rec.find('.t-map-lazyload');
+    if (map.length != 0) {
+        var blockTop = map.offset().top;
+        if ($(window).scrollTop() > blockTop - windowHeight -
+            scrollDiffHeigth) {
+            if (map.attr('data-maplazy-load') == 'false') {
+                map.attr('data-maplazy-load', 'true');
+                t_appendYandexMap("193630848",
+                    "c5c07cac-1016-4fbb-a294-314b2c221b33");
+            }
+        }
+    }
+}

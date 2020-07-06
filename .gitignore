@@ -62,3 +62,4 @@ typings/
 
 # Yarn module installation path
 /assets/vendor
+.cache/
