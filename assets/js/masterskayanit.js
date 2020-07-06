@@ -68,6 +68,23 @@ $(document).ready(function () {
     $(window).bind('scroll', t_throttle(t_map_lazyload_add_map, 300));
 });
 
+(function($){
+    $(window).on('load', function(){
+        $.instagramFeed({
+            'username': 'masterskaya_nit',
+            'container': "#instagram-feed1",
+            'display_profile': false,
+            'display_biography': false,
+            'display_gallery': true,
+            'callback': null,
+            'styling': true,
+            'items': 8,
+            'items_per_row': 4,
+            'margin': 1 
+        });
+    });
+})(jQuery);
+
 function t_map_lazyload_add_map() {
     var windowHeight = $(window).height();
     var scrollDiffHeigth = 700;
