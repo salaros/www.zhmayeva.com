@@ -2,5 +2,5 @@ User-agent: *
 Allow: /
 Allow: /feed.xml
 Disallow: /assets/vendor/
-Sitemap: https://www.masterskayanit.ru/sitemap.xml
-Host: https://www.masterskayanit.ru
+Sitemap: https://www.zhmayeva.com/sitemap.xml
+Host: https://www.zhmayeva.com
