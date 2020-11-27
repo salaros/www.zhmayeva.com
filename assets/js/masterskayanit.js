@@ -71,7 +71,7 @@ $(document).ready(function () {
 (function($){
     $(window).on('load', function(){
         $.instagramFeed({
-            'username': 'masterskaya_nit',
+            'username': 'zhmayeva',
             'container': "#instagram-feed1",
             'display_profile': false,
             'display_biography': false,
