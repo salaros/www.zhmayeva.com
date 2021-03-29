@@ -63,15 +63,12 @@ $(document).ready(function () {
     setTimeout(function () {
         t898_init('193770283');
     }, 500);
-
-    t_map_lazyload_add_map();
-    $(window).bind('scroll', t_throttle(t_map_lazyload_add_map, 300));
 });
 
 (function($){
     $(window).on('load', function(){
         $.instagramFeed({
-            'username': 'masterskaya_nit',
+            'username': 'zhmayeva',
             'container': "#instagram-feed1",
             'display_profile': false,
             'display_biography': false,
@@ -84,21 +81,3 @@ $(document).ready(function () {
         });
     });
 })(jQuery);
-
-function t_map_lazyload_add_map() {
-    var windowHeight = $(window).height();
-    var scrollDiffHeigth = 700;
-    var rec = $('#rec' + 193630848);
-    var map = rec.find('.t-map-lazyload');
-    if (map.length != 0) {
-        var blockTop = map.offset().top;
-        if ($(window).scrollTop() > blockTop - windowHeight -
-            scrollDiffHeigth) {
-            if (map.attr('data-maplazy-load') == 'false') {
-                map.attr('data-maplazy-load', 'true');
-                t_appendYandexMap("193630848",
-                    "c5c07cac-1016-4fbb-a294-314b2c221b33");
-            }
-        }
-    }
-}
