@@ -50,6 +50,11 @@
     height: 100%
 }
 
+.t549_2__bgimg {
+    height: 120px;
+    margin-top: -20px;
+}
+
 @supports (overflow:-webkit-marquee) and (justify-content:inherit) {
 
     #rec193908759 .t-menu__link-item,
